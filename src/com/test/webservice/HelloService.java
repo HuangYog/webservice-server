@@ -17,3 +17,11 @@ public class HelloService {
     }
 }
 
+/*
+
+java -cp axis.jar;axis-ant.jar;commons-discovery-0.2.jar;
+commons-logging-1.0.4.jar;jaxrpc.jar;log4j-1.2.8.jar;saaj.jar;
+wsdl4j-1.5.1.jar;xercesImpl-2.8.1.jar
+org.apache.axis.client.AdminClient  -lhttp://localhost:8888/server/services/AdminService deploy.wsdd
+
+ */
